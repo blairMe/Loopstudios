@@ -3,9 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <p>10 piece</p>
-    </div>
+    <p>Dates</p>
   );
 }
 
