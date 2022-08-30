@@ -28,15 +28,21 @@ const Header = () => {
           />
         </div>
         <div className="person__holder">
-          <img
-            src={require("../images/desktop/image-interactive.jpg")}
-            alt="person"
-            className="person__img"
-          />
-          <div>
-            <h3 className="person__title">THE LEADER IN INTERACTIVE VR</h3>
-            <p className="person__info">Founded in 2011, Loopstudios has been producint world-class virtual reality projecs for some of the best companies aroung the globe. 
-            Our award-winning creations have transformed businesses through digital experiences that bind to their brands.</p>
+          
+            <img
+              src={require("../images/desktop/image-interactive.jpg")}
+              alt="person"
+              className="person__img"
+            />
+            <div className="person__text">
+              <h3 className="person__title">THE LEADER IN INTERACTIVE VR</h3>
+              <p className="person__info">
+                Founded in 2011, Loopstudios has been producint world-class
+                virtual reality projecs for some of the best companies aroung
+                the globe. Our award-winning creations have transformed
+                businesses through digital experiences that bind to their
+                brands.
+              </p>
           </div>
         </div>
       </section>

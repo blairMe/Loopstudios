@@ -133,3 +133,27 @@ img {
   font-size: 80px;
   font-family: var(--font-two);
 }
+
+
+/*=============== PERSON HOLDER ===============*/
+.person__holder {
+  position: relative;
+  width: 70%;
+  height: auto;
+  margin: 100px;
+  justify-content: center;
+}
+
+.person__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.person__text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: var(--white);
+  
+}
