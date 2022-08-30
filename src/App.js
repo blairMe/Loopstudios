@@ -1,12 +1,10 @@
 import './App.css';
+import Header from './components/header';
 
 function App() {
   return (
-    <p>Dates</p>
+    <Header />
   );
 }
 
 export default App;
-
-//App
-//More
